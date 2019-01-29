@@ -141,19 +141,15 @@ span {
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
-  0%    {color: #666666; left:0px; top:0px;}
-  25%   {color: #660033; left:500px; top:0px;}
-  50%   {color: #003366; left:0px; top:0px;}
-  75%   {color: #cc0066; left:500px; top:0px;}
-  100%  {color: #4aaaa5; left:0px; top:0px;}
+    0%    {color: #003366; left:0px; top:0px;}
+    50%   {color: #660033; left:350px; top:0px;}
+    100%  {color: #4aaaa5; left:0px; top:0px;}
 }
 
 /* Standard syntax */
 @keyframes example {
-    0%    {color: #666666; left:0px; top:0px;}
-    25%   {color: #660033; left:500px; top:0px;}
-    50%   {color: #003366; left:0px; top:0px;}
-    75%   {color: #cc0066; left:500px; top:0px;}
+    0%    {color: #003366; left:0px; top:0px;}
+    50%   {color: #660033; left:350px; top:0px;}
     100%  {color: #4aaaa5; left:0px; top:0px;}
 }
 
